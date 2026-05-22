@@ -25,4 +25,9 @@ class StudentRecordViewSet(ModelViewSet):
         return [permission() for permission in permission_classes]
 
     def perform_create(self, serializer):
-        serializer.save(owner=self.request.user)
+        owner_id = self.request.data.get('owner')
+        
+        if owner_id:
+            serializer.save(owner_id=owner_id)
+        else:
+            serializer.save(owner=self.request.user)

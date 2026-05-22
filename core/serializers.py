@@ -5,4 +5,4 @@ class StudentRecordSerializer(serializers.ModelSerializer):
     class Meta:
         model = StudentRecord
         fields = ['id', 'owner', 'full_name', 'course', 'year_level']
-        read_only_fields = ['owner']
+        # read_only_fields = ['owner'] | to allow editing of owner field
