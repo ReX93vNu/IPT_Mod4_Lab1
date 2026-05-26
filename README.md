@@ -1,6 +1,8 @@
 # IPT_Mod4_Lab1 
 by a barely functioning studint
 
+Written paired activity link: https://docs.google.com/document/d/1UL7yEZAu3V9KyKDwVMEX4CpMB0t0nhUTdEhRYjyYlJg/edit?usp=sharing
+
 A Lab activity to satisfy the following:
 
 Problem Scenario 
